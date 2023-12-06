@@ -9,7 +9,12 @@ Deleting expired users through the database in IBSng
 ```bash
 wget -O database_get.sh https://raw.githubusercontent.com/MrAriaNet/IBSngDeleteExpireUser/main/database_get.sh
 chmod +x database_get.sh
-./database_get.sh
+
+For Absolute Expiration Date :
+./database_get.sh Absolute
+
+For Relative Expiration Date :
+./database_get.sh Relative
 ```
 
 2) Upload php files in Linux host for run script
